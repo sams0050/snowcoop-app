@@ -2,7 +2,7 @@
   <div id="sideNavigation">
     <el-menu class="side-nav-menu" :router="true" :default-active="activeLink">
       <div class="logo">
-        <span>Snowcoop</span>
+        <span class="snowcoop">Snowcoop</span>
       </div>
       <el-menu-item index="/dashboard">
         <span>Dashboard</span>
