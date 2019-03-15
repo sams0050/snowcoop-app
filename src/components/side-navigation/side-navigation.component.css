@@ -1,20 +1,25 @@
 #sideNavigation {
   width: 228px;
   height: 100%;
-  box-shadow: 0 8px 7px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.5);
   background-color: #ffffff;
 }
 
 
-.el-menu-item hover {
-  width: 228px;
-  height: 84px;
+.el-menu-item:hover {
   background-color: #a4d4f6;
 }
 
 .el-menu-item {
-  width: 138px;
-  height: 28px;
+  width: 228px;
+  height: 84px;
+}
+
+.side-nav-menu {
+  height: 100%;
+}
+
+.el-menu-item>span {
   margin-left: 40px;
   margin-top: 31px;
   margin-bottom: 35px;
@@ -25,7 +30,6 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 0.2px;
-  color: #000000;
 }
 
 .logo {
@@ -42,4 +46,8 @@
   line-height: normal;
   letter-spacing: 0.2px;
   color: #969696;
+}
+
+.el-menu-item:hover>span {
+  color: #1974e8;
 }
