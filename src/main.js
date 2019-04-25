@@ -21,7 +21,9 @@ Vue.use(VueGoogleMaps, {
     key: process.env.VUE_APP_GOOGLE_API_KEY,
     libraries: 'places'
   }
-})
+});
+
+Vue.router = router;
 
 new Vue({
   router,
